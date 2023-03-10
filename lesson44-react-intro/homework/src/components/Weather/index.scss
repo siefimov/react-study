@@ -1,0 +1,37 @@
+.weather {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+.weather:hover{
+  opacity: 1;
+}
+
+.weather__title {
+  font-family: "Lucida Sans Unicode";
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+.weather__forecast {
+  display: flex;
+  align-items: center;
+}
+.weather__temperature {
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.weather__icon {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.7);
+}
