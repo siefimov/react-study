@@ -1,0 +1,24 @@
+.header__block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-left: 26px;
+
+  box-sizing: border-box;
+  max-width: 1177px;
+  width: 100%;
+  background-color: #d9d9d9;
+  & .header{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: 0;
+    & .header__item{
+      padding: 10px 10px;
+    }
+  }
+}
